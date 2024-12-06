@@ -41,10 +41,10 @@ SELECT * FROM professor WHERE matricula=2
 
 -- criando tabela 
 CREATE TABLE cursos(
-	  id_curso NULL PRIMARY KEY AUTO_INCREMENT,
-  	nome_curso VARCHAR(50) NOT NULL,
+    id_curso NULL PRIMARY KEY AUTO_INCREMENT,
+    nome_curso VARCHAR(50) NOT NULL,
     carga_horaria INT NOT NULL,
-  	nivel VARCHAR(50) NOT NULL,
+    nivel VARCHAR(50) NOT NULL,
     modalidade VARCHAR(50) NOT NULL,
     area VARCHAR(50) NOT NULL,
     periodicidade VARCHAR(50) NOT NULL,
